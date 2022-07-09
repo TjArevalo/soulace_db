@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/lyrics", (req, res) => {
-    res.send(lyrics)
+    res.json(lyrics)
 })
 
 app.listen(8080, () => {
